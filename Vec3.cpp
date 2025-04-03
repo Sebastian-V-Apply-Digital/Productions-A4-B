@@ -12,7 +12,7 @@ Vec3::Vec3()
     Set(0.0f, 0.0f, 0.0f);
 }
 
-Vec3::Vec3(const float x, const float y, const float z)
+Vec3::Vec3(const float x_, const float y_, const float z_)
 {
-    Set(x, y, z);
+    Set(x_, y_, z_);
 }

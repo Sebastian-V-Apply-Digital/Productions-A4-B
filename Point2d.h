@@ -12,7 +12,7 @@ union Point2d {
 	};
 
 	Point2d() {
-		x = y = w = 0;
+		w = y = x = 0;
 	}
 
 	Point2d(float x_, float y_, float w_) 
