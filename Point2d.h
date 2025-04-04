@@ -4,7 +4,10 @@
 
 union Point2d {
 	struct {
-		float x, y, w;
+		
+		float x;
+		float y;
+		float w;
 	};
 
 	struct {
