@@ -9,10 +9,12 @@ void Vec3::Set(const float x_, const float y_, const float z_)
 
 Vec3::Vec3()
 {
-    Set(0.0f, 0.0f, 0.0f);
+    x = 0.0f;
+	y = 0.0f;
+	z = 0.0f;
 }
 
 Vec3::Vec3(const float x_, const float y_, const float z_)
 {
-    Set(x_, y_, z_);
+    Set(x, y, z);
 }
